@@ -1,31 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Hacker </title>
+	<title>Mi página web</title>
+	<style>
+		body {
+			width: 1000px;
+			height: 800px;
+		}
+
+		#botones {
+			width: 50%;
+			height: 50%;
+			float: left;
+			margin: 10px;
+		}
+
+		#cuadrado {
+			position: absolute;
+			top: 100px;
+			right: 50px;
+			width: 1000px;
+			height: 800px;
+			border: 1px solid black;
+			background-color: white;
+		}
+	</style>
 </head>
-
 <body>
-<div id="container">
-  <button id="btn1"  onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn2" onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn3" onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn4" onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn5" onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn6" onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn7" onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn8" onclick="cargarPagina('https://www.google.com')">Google</button>
-  <button id="btn9" onclick="cargarPagina('https://www.google.com')">Google</button>
+	<div id="botones">
+		<button onclick="window.location.href = 'https://www.pagina1.com'">Pagina 1</button>
+		<button onclick="window.location.href = 'https://www.pagina2.com'">Pagina 2</button>
+		<button onclick="window.location.href = 'https://www.pagina3.com'">Pagina 3</button>
+		<button onclick="window.location.href = 'https://www.pagina4.com'">Pagina 4</button>
+		<button onclick="window.location.href = 'https://www.pagina5.com'">Pagina 5</button>
+		<button onclick="window.location.href = 'https://www.pagina6.com'">Pagina 6</button>
+		<button onclick="window.location.href = 'https://www.pagina7.com'">Pagina 7</button>
+		<button onclick="window.location.href = 'https://www.pagina8.com'">Pagina 8</button>
+	</div>
 
-<div id="cuadrado">
-  <iframe id="iframe" width="800" height="500" src="https://www.google.com"></iframe>
-</div>
+	<div id="cuadrado">
+		<iframe src="" width="100%" height="100%"></iframe>
+	</div>
 
-</div>
-  <script src="script.js"></script>
 </body>
-
 </html>
