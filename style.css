@@ -10,7 +10,7 @@ body {
 
 #container {
   position: absolute;
-  top: 10%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 190px; /* el ancho es mayor para acomodar el espacio entre botones */
@@ -89,6 +89,7 @@ button {
   bottom: 100;
   right: 0;
   left: 0;
+  transform: translate(-50%, -50%);
   width: 800px;
   height: 500px;
 }
