@@ -1,46 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mi página web</title>
-	<style>
-		body {
-			width: 1000px;
-			height: 800px;
-		}
-
-		#botones {
-			width: 50%;
-			height: 50%;
-			float: left;
-			margin: 10px;
-		}
-
-		#cuadrado {
-			position: absolute;
-			top: 100px;
-			right: 50px;
-			width: 1000px;
-			height: 800px;
-			border: 1px solid black;
-			background-color: white;
-		}
-	</style>
+    <title>Botones y Cuadrado</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-	<div id="botones">
-		<button onclick="window.location.href = 'https://www.pagina1.com'">Pagina 1</button>
-		<button onclick="window.location.href = 'https://www.pagina2.com'">Pagina 2</button>
-		<button onclick="window.location.href = 'https://www.pagina3.com'">Pagina 3</button>
-		<button onclick="window.location.href = 'https://www.pagina4.com'">Pagina 4</button>
-		<button onclick="window.location.href = 'https://www.pagina5.com'">Pagina 5</button>
-		<button onclick="window.location.href = 'https://www.pagina6.com'">Pagina 6</button>
-		<button onclick="window.location.href = 'https://www.pagina7.com'">Pagina 7</button>
-		<button onclick="window.location.href = 'https://www.pagina8.com'">Pagina 8</button>
-	</div>
+    <div id="botones">
+        <button data-pagina="https://www.google.com/">Google</button>
+        <button data-pagina="https://www.facebook.com/">Facebook</button>
+        <button data-pagina="https://www.twitter.com/">Twitter</button>
+        <button data-pagina="https://www.youtube.com/">YouTube</button>
+        <button data-pagina="https://www.instagram.com/">Instagram</button>
+        <button data-pagina="https://www.linkedin.com/">LinkedIn</button>
+        <button data-pagina="https://www.github.com/">GitHub</button>
+        <button data-pagina="https://www.wikipedia.org/">Wikipedia</button>
+    </div>
 
-	<div id="cuadrado">
-		<iframe src="" width="100%" height="100%"></iframe>
-	</div>
+    <div id="cuadrado">
+        <iframe src=""></iframe>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
