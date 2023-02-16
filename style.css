@@ -1,4 +1,7 @@
 body {
+  margin: 20px;
+}
+body {
   background-color: #505050;
   margin: 20px;
 }
@@ -77,6 +80,17 @@ button {
 
 #btn5 {
   visibility: hidden;
+}         
+
+#cuadrado {
+  position: absolute;
+  bottom: 100;
+  right: 0;
+  left: 0;
+  width: 800px;
+  height: 500px;
 }
-  
-  
+
+body {
+  position: relative;
+}
