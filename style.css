@@ -1,5 +1,7 @@
 body {
   margin: 20px;
+  width: 1000px;
+  height: 800px;
 }
 body {
   background-color: #505050;
@@ -8,7 +10,7 @@ body {
 
 #container {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 190px; /* el ancho es mayor para acomodar el espacio entre botones */
