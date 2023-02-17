@@ -1,8 +1,8 @@
-const botones = document.querySelectorAll('button');
-const cuadrado = document.querySelector('#cuadrado iframe');
+const cuadrado = document.getElementById('cuadrado');
+const botones = document.querySelectorAll('.boton');
 
-botones.forEach(boton => {
-    boton.addEventListener('click', () => {
-        cuadrado.src = boton.dataset.pagina;
-    });
+botones.forEach((boton, indice) => {
+  boton.addEventListener('click', () => {
+    cuadrado.innerHTML = `<iframe src="pagina${indice + 1}.html"></iframe>`;
+  });
 });
