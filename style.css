@@ -1,23 +1,77 @@
-body {
-  margin: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-#cuadrado {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-  background-color: #eee;
+.ig {
+	margin: auto;
+	justify-content: center;
+}
+
+.ig2 {
+	margin: auto;
+	justify-content: center;
+	width: 1365px;
+	display: block;
+	background: rgb(0,62,139);
+	background: linear-gradient(90deg, rgba(0,62,139,0.8561975815716911) 0%, rgba(255,255,255,1) 100%);
+	padding: 0px;
+}
+
+.ig3 {
+	margin: auto;
+	justify-content: center;
+	width: 1365px;
+	padding: 0px;
+}
+
+.ig3 iframe {
+	padding: 0px;
+	margin: 0px;
+	border-radius: 0px;
+	border: 1px solid black;
+}
+
+.sep {
+	width: 100%;
+	background-color: #ebeff2;
+	height: 40px;
+}
+
+.ig2 button {
+	transition: 0.2s;
+}
+
+.ig2 a:hover {
+	transition: 0.2s;
+	margin-left: 20px;
 }
 
 .boton {
-  background-color: #fff;
-  border: 1px solid #333;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
+	transition: 0.2s;
+	margin-left: 5px;
+	border-radius: 0px;
+	text-decoration: none;
+	color: black;
+	font-family: "Arial";
+	border-top: 1.5px solid rgba(0,0,0,0.1);
+	border-left: 1.5px solid rgba(0,0,0,0.2);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+	margin: 5px;
+	border-bottom: 1.5px solid black;
+	border-right: 1.5px solid black;
+}
+
+.boton:hover {
+	transition: 0.2s;
+	transform: scale(1.05);
+}
+
+.boton:active {
+	transition: 0.2s;
+	transform: scale(0.95);
 }
